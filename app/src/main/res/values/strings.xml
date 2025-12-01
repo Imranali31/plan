@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PlanAndPricing</string>
+
+    <style name="semiBold">
+        <item name="android:fontFamily">@font/font_family</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight">1000</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+
+    <style name="medium">
+        <item name="android:fontFamily">@font/font_family</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+    <style name="underLineBold">
+        <item name="android:fontFamily">@font/font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <string name="underlined_text">This is <u>underlined</u> text.</string>
+
+</resources>
