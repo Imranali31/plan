@@ -79,4 +79,7 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
     kapt("com.github.bumptech.glide:compiler:4.16.0")
 
+    //shimmer
+    implementation("com.facebook.shimmer:shimmer:0.5.0")
+
 }
