@@ -1,8 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="borderColor">#E4E7EC</color>
-    <color name="updatedBorderColor">#D95BB0</color>
-    <color name="selectedCard">#FAE9F6</color>
+
+
+        <color name="borderColor">#E4E7EC</color>
+        <color name="updatedBorderColor">#D95BB0</color>
+        <color name="selectedCard">#FAE9F6</color>
+        <color name="colorPrimary">#B32D7D</color>
+        <color name="colorPrimaryDark">#B32D7D</color>
+        <color name="colorAccent">#B32D7D</color>
+        <color name="colorBdjobsMajenta">#B1097C</color>
+        <color name="bdJobsNewBlue">#3167A8</color>
+        <color name="bdJobsNewBlue1">#2F64A3</color>
+        <color name="lightBlue">#ECF6FF</color>
+        <color name="bdJobsGray3">#636363</color>
+        <color name="mediumBlue">#95CDFF</color>
+        <color name="matteBlack">#262626</color>
+        <color name="newBlack">#131217</color>
+        <color name="raisinBlack">#212121</color>
+        <color name="davyGrey">#565656</color>
+        <color name="dimGrey">#696969</color>
+        <color name="darkGrayishBlue">#878999</color>
+        <color name="newMediumBlack">#201F24</color>
+        <color name="lightGreen">#D1FBD0</color>
+        <color name="bdJobsDarkGray">#5B5B5B</color>
+        <color name="bdJobsLighterGray">#5C5C5C</color>
+        <color name="darkerGray">#3E3E3E</color>
+        <color name="bdJobsGrayTwo">#D9D9D9</color>
+        <color name="bdJobsGrayDivider">#D1C7CD</color>
+        <color name="bdJobsRedDivider">#CD201F</color>
+        <color name="grey_close">#616161</color>
+        <color name="bdJobsNewGreen">#0A8742</color>
+        <color name="bdJobsGreen">#27AF64</color>
+        <color name="colorWhite">#FFFFFF</color>
+        <color name="white">#FFFFFF</color>
+        <color name="lightBlue_applied">#4373AC</color>
+        <color name="lightBlue2">#ECF6FF</color>
+        <color name="colorUnselected">#979797</color>
+        <color name="card_background">#F8F6EA</color>
+        <color name="colorAsh">#E0E0E0</color>
+        <color name="inactive_background">#808080</color>
+        <color name="inactive_text_color">#808080</color>
+        <color name="fav_search_save">#F7894A</color>
+        <color name="undo">#8ab4f8</color>
+        <color name="ripple_transparent">#00FFFFFF</color>
+        <color name="unfollow">#E6E5EB</color>
+        <color name="chip_select_color">#2F64A3</color>
+        <color name="chip_default_color">#FFFFFF</color>
+        <color name="itemsColor">#767676</color>
+        <color name="signInColorActivated">#006F94</color>
+        <color name="hintColor">#99BBD6</color>
+        <color name="greyCal">#393939</color>
+        <color name="blueCal">#2F64A3</color>
+        <color name="premiumBlue">#2884B6</color>
+
+        <color name="brandColor">#B32D7D</color>
+        <color name="brandColorLight">#FCF7FA</color>
+        <color name="bdJobsGray">#595959</color>
+        <color name="bdJobsLightGray">#BFBFBF</color>
+        <color name="bdJobsLightGray2">#B4B4B4</color>
+        <color name="colorEditText">#808080</color>
+        <color name="lightPink">#FEF3F8</color>
+        <color name="darkPink">#F7F4F6</color>
+
+        <color name="colorBlack">#000000</color>
+        <color name="transparent_black">#1A000000</color>
+        <color name="unselected">#EFEFEF</color>
+        <color name="jobLimitText">#2E64A4</color>
+
+        <color name="border_gray">#E4E7EC</color>
+        <color name="selected_card_bg">#af4698</color>
+
+        <color name="inactive_question_text_color">#999999</color>
+
+        <color name="green">#13A10E</color>
+        <color name="light_green">#5AA46D</color>
+        <color name="green_2AD23B">#2AD23B</color>
+
+        <color name="selected">#1565C0</color>
+        <color name="warning_red">#B71C1C</color>
+        <color name="videoInterviewThemeColor">#0FABBC</color>
+        <color name="colorVideoInterviewEvent">#EC407A</color>
+        <color name="colorLiveInterview">#F71673</color>
+        <color name="colorOrange">#F57F17</color>
+
+
+        <color name="btn_green">#0AF899</color>
+        <color name="btn_ash">#757575</color>
+        <color name="btn_ash2">#A9A8AA</color>
+        <color name="btn_red">#CC2428</color>
+        <color name="btn_light_blue">#E3F2FD</color>
+        <color name="privacy_public">#CCFFD9</color>
+        <color name="privacy_private">#FFCCCC</color>
+        <color name="privacy_limited">#FFE0B2</color>
+
+        <color name="text_blue">#1565C0</color>
+
+        <color name="remaining_sms_0">#B83100</color>
+        <color name="remaining_sms_1_9">#A86500</color>
+        <color name="remaining_sms_10_more">#008020</color>
+
+        <color name="border_blue">#90CAF9</color>
+        <color name="border_grey">#707070</color>
+        <color name="new_red">#E42D27</color>
+
+        <color name="sms_alert_on">#13A10E</color>
+        <color name="sms_alert_off">#AC0000</color>
+
+        <color name="sms_text_color">#393939</color>
+
+        <color name="sms_package_20">#DF0C59</color>
+        <color name="sms_package_100">#6859EA</color>
+        <color name="sms_package_500">#AB2FFE</color>
+        <color name="sms_package_custom">#11884B</color>
+
+        <color name="video_resume_hide">#FAF0F0</color>
+        <color name="video_resume_visible">#F0FAF0</color>
+
+
+        <!--    AjkerDeal Colors-->
+
+        <color name="aDheaderColor">#f05a2b</color>
+        <color name="defaultColor">#C63C92</color>
+        <color name="colorText">#454545</color>
+        <color name="statusbarcolor">#ae482f</color>
+        <color name="navigationBarColor">@android:color/black</color>
+
+        <color name="separator">#26000000</color>
+        <color name="list_seperator">#25000000</color>
+        <color name="playControlColor">#DCDCDC</color>
+
+        <color name="placeholder_bg">#dddddd</color>
+
+        <color name="myHiring_text">#0E6596</color>
+
+        <color name="checkout_tab_color">#008fd3</color>
+        <color name="checkout_background">#F7F7F7</color>
+        <color name="checkout_toggle_bg">#C6C6C6</color>
+        <color name="spotlightBackground">#BF000000</color>
+
+        <color name="background">#F1F1F1</color>
+        <color name="black_100">#FF000000</color>
+        <color name="black_80">#CC000000</color>
+        <color name="black_90">#E6000000</color>
+        <color name="black_70">#B3000000</color>
+        <color name="black_60">#99000000</color>
+        <color name="black_50">#80000000</color>
+        <color name="black_35">#59000000</color>
+        <color name="black_30">#4D000000</color>
+        <color name="black_25">#40000000</color>
+        <color name="black_15">#26000000</color>
+        <color name="black_33">#333333</color>
+        <color name="black">#000000</color>
+
+        <color name="gray">#afadad</color>
+        <color name="ash">#373737</color>
+        <color name="ash_new">#344054</color>
+        <color name="ash_light">#B0B0B0</color>
+        <color name="ash_light_bg">#F9FAFB</color>
+        <color name="gray_50">#fafafa</color>
+        <color name="gray_100">#f5f5f5</color>
+        <color name="gray_200">#4De0e0e0</color>
+        <color name="gray_300">#e0e0e0</color>
+        <color name="gray_500">#D6D6D6</color>
+
+        <color name="blue">#303F9F</color>
+        <color name="color_blue">#008fd3</color>
+        <color name="light_blue">#4e6aa4</color>
+        <color name="deep_blue">#0D4B94</color>
+        <color name="OT_blue">#F0FAFF</color>
+        <color name="live_product_selected">#CDE8F8</color>
+
+        <color name="color_online_test_primary">#0E73A9</color>
+
+        <color name="color_onlineTestMessageColor">#0D47A1</color>
+
+        <color name="color_red_validation">#FF0000</color>
+        <color name="black_light">#292929</color>
+        <color name="fg_disabled">#98A2B3</color>
+
+
+        <color name="grey_3">#f7f7f7</color>
+        <color name="grey_5">#f2f2f2</color>
+        <color name="grey_10">#e6e6e6</color>
+        <color name="grey_20">#cccccc</color>
+        <color name="grey_40">#999999</color>
+        <color name="grey_60">#666666</color>
+        <color name="grey_80">#37474F</color>
+        <color name="grey_90">#263238</color>
+        <color name="grey_95">#1a1a1a</color>
+        <color name="grey_100_">#0d0d0d</color>
+
+        <color name="green_500">#4CAF50</color>
+
+        <color name="purple_light">#FFF0F9</color>
+
+
+        <color name="gray_19">#303030</color>
+        <color name="job_post_default_color">#2F64A3</color>
+        <color name="eerie_black">#1E1E1E</color>
+
+        <color name="selectedColor">#4e6aa4</color>
+        <color name="unselectedColor">#CCCCCC</color>
+        <color name="lightGreen2">#C7EAD0</color>
+        <color name="lightGreen3">#008020</color>
+        <color name="orange700">#C25700</color>
+        <color name="blue100">#004E8C</color>
+        <color name="talentSearchDefaultColor">#313983</color>
+        <color name="lavender_100">#8289C3</color>
+        <color name="white_100">#F5F6FE</color>
+        <color name="lilac_100">#51599C</color>
+        <color name="lilac_101">#0E73A9</color>
+        <color name="black_200">#101828</color>
+        <color name="ash_100">#475467</color>
+        <color name="gray_400">#E4E7EC</color>
+        <color name="purple_400">#667085</color>
+        <color name="purple_100">#282F6B</color>
+        <color name="ash_200">#B9BDC7</color>
+        <color name="blue_100">#1A5EA1</color>
+        <color name="white_200">#F6F7F9</color>
+        <color name="ash_300">#D0D3D9</color>
+        <color name="gray_700">#667085</color>
+        <color name="gray_800">#F5F6FC</color>
+        <color name="white_8">#00000014</color>
+        <color name="pink_baby">#FBF3F9</color>
+
+
 </resources>

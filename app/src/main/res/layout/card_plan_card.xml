@@ -7,7 +7,7 @@
     android:paddingBottom="8dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/quantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -19,34 +19,35 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView"
+        android:id="@+id/budgetCard"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:cardBackgroundColor="#EFF8FF"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/quantity"
+        app:layout_constraintStart_toEndOf="@+id/featureName"
         app:strokeColor="#B2DDFF"
         tools:layout_editor_absoluteY="0dp">
 
         <TextView
             style="@style/medium"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:paddingStart="2dp"
-            android:paddingEnd="2dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
             android:text="New"
             android:textAlignment="center"
             android:textColor="#175CD3" />
     </com.google.android.material.card.MaterialCardView>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_marginStart="8dp"
+        android:id="@+id/featureName"
+        style="@style/underLineBold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Monthly Application Limit"
-        style="@style/underLineBold"/>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="2dp" />
 
     <ImageView
         android:id="@+id/okIv"
