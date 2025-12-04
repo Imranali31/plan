@@ -16,7 +16,8 @@
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/budgetCard"
@@ -47,7 +48,8 @@
         android:layout_height="wrap_content"
         android:text="Monthly Application Limit"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/okIv"
@@ -56,9 +58,7 @@
         android:layout_marginStart="3dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/done_in_plan" />
 
