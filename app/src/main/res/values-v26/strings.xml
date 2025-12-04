@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="semiBold">
+        <item name="android:fontFamily">@font/font_family</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight">1000</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+</resources>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PlanAndPricing</string>
     <string name="see_more"><u>See more</u></string>
+    <string name="payment_description">Payment Description</string>
 
     <style name="semiBold">
         <item name="android:fontFamily">@font/font_family</item>
