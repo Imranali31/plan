@@ -1,10 +1,10 @@
-package com.example.planandpricing
+package com.example.planandpricing.api
 
+import com.example.planandpricing.dataModel.PlanAndPricingDataModel
 import com.google.gson.GsonBuilder
 import com.localebro.okhttpprofiler.OkHttpProfilerInterceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Field
@@ -15,20 +15,20 @@ import java.util.concurrent.TimeUnit
 interface ApiServices {
     @FormUrlEncoded
     @POST("CandidateMonetization/Package-v03")
-    fun getAllPackages(
-        @Field("userId") userId: String? = "",
-        @Field("decoderId") decoderId: String? = "",
+    suspend fun getAllPackages(
+        @Field("userId") userId: String? = "4361771",
+        @Field("decoderId") decoderId: String? = "S8A8Qw",
         @Field("deviceType") deviceType: String? = "app"
-    ): Call<PlanAndPricingDataModel>
+    ): PlanAndPricingDataModel
     companion object Factory {
         private var retrofit: Retrofit? = null
         @Synchronized
-        fun create(): ApiServices? {
+        fun create(): ApiServices{
             retrofit?:synchronized(this){
                 retrofit = buildRetrofit()
             }
 
-            return retrofit?.create(ApiServices::class.java)
+            return retrofit!!.create(ApiServices::class.java)
 
         }
 
@@ -43,8 +43,6 @@ interface ApiServices {
                 .readTimeout(40, TimeUnit.SECONDS)
                 .writeTimeout(40,TimeUnit.SECONDS)
                 .connectTimeout(40,TimeUnit.SECONDS)
-
-            okHttpClientBuilder.addInterceptor(OkHttpProfilerInterceptor())
 
             val okHttpClient = okHttpClientBuilder.build()
 

@@ -14,6 +14,8 @@
         app:cardBackgroundColor="#FCF3FA"
         app:cardCornerRadius="8dp"
         app:cardMaxElevation="0dp"
+        app:strokeColor="#F6D4ED"
+        app:strokeWidth="1.5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

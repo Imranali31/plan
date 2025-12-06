@@ -7,12 +7,11 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mainCard"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="2dp"
         app:cardBackgroundColor="#D95BB0"
         app:cardCornerRadius="8dp"
-        android:layout_marginEnd="8dp"
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:padding="5dp"
+                android:padding="8dp"
                 android:text="50% OFF"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
@@ -50,7 +49,7 @@
                 <TextView
                     android:id="@+id/duration"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:lineSpacingExtra="0sp"
                     android:padding="15dp"

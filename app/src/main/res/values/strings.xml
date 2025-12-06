@@ -25,6 +25,11 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
+    <style name="LinearProgressbar" parent="Theme.MaterialComponents.Light">
+        <item name="colorAccent">@color/colorBdjobsMajenta</item>
+        <item name="android:progressBackgroundTint">#b7b7b7</item>
+    </style>
+
     <string name="underlined_text">This is <u>underlined</u> text.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
